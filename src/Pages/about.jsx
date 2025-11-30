@@ -34,7 +34,7 @@ const about = () => {
   return (
     <div className="text-black dark:text-white py-30 w-screen  gap-10 flex justify-between flex-col xl:flex-row  overflow-y-scroll overflow-x-hidden">
       <div className="flex justify-start p-10 items-start flex-col relative xl:sticky top-0 z-2 w-[40vw]">
-        <h1 className="head italic font-light text-[60px] md:text-[60px] whitespace-nowrap xl:text-[120px] xxl:text-[170px]">
+        <h1 className="head italic font-light text-[60px] md:text-[60px] whitespace-nowrap text-4xl lg:text-[100px] xl:text-[140px] xxl:text-[170px]">
           About me
         </h1>
         <p className="py-4 italic text-1xl md:text-2xl w-[90vw] xl:w-auto  ">

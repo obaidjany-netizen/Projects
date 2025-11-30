@@ -43,7 +43,7 @@ const AboutCard = ({ institution, degree, duration, description, icon,resultUrl 
       animate={isInView ? "visible" : "hidden"} 
       className="about text-black dark:text-white text-sm"
     >
-      <div className="card border-2 border-black dark:border-cyan-500 px-2 py-4 rounded-xl xl:w-[50vw] w-full gap-10 flex justify-between items-center">
+      <div className="card border-2 border-black dark:border-cyan-500 px-2 py-4 rounded-xl xxl:w-[50vw] w-full gap-10 flex justify-between items-center">
         
         <motion.div 
             className="hidden md:block icon text-[120px] xxl:text-[200px] dark:text-cyan-500"

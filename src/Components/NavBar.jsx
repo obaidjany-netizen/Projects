@@ -9,8 +9,8 @@ const NavBar = () => {
     { name: "About", path: "/about" },
     { name: "Skills", path: "/skills" },
     { name: "Projects", path: "/projects" },
-    { name: "Gallery", path: "/gallery" },
-    { name: "Contact", path: "/contact" },
+    
+  
   ];
 
   const [Theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
