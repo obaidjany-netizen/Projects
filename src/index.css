@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+@import "tailwindcss";
+
+
+
+:root {
+  --bgcolor: #000;
+}
+body {
+  /* background-color: var(--bgcolor); */
+  overflow-x: hidden;
+}
