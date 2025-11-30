@@ -1,5 +1,5 @@
 import React from 'react'
-import LogoPfp from '../Components/Logo.jsx'
+import LogoPfp from "../Components/Logo";
 import NavBar from '../Components/NavBar'
 
 const Header = () => {
