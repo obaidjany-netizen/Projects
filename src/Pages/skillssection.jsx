@@ -11,7 +11,10 @@ const skillsRight = [
   { label: "Coding", value: 80 },
   { label: "No Code Tools", value: 35 },
 ];
-const skillsLanguages=[{name:"JavaScript",url:"/src/assets/js.png",color:'Yellow'},{name:"React",url:"/src/assets/react.png",color:'white'},{name:"CSS",url:"/src/assets/css.png" , color:'blue'},{name:"Html 5",url:"/src/assets/html.png", color:'orange'},];
+const skillsLanguages=[{name:"JavaScript",url:"ri-javascript-fill",color:'Yellow'},
+  {name:"React",url:"ri-reactjs-line",color:'white'},
+  {name:"CSS",url:"ri-css3-fill" , color:'blue'},
+  {name:"Html 5",url:"ri-html5-fill", color:'orange'},];
 
 
 const Slider = ({ value }) => (

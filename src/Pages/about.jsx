@@ -1,5 +1,7 @@
 import React from "react";
 import AboutMe from "../Components/aboutCard";
+
+
 const about = () => {
   const educationData = [
     {

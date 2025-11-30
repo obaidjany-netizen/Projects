@@ -1,5 +1,5 @@
 import { Link } from "react-router";  // Fixed import
-
+import Logo from '../Components/Logo'
 import "remixicon/fonts/remixicon.css";
 
 const Footer = () => {
@@ -9,8 +9,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-8 px-4 py-6 sm:grid-cols-2 lg:grid-cols-4">
           {/* Brand section - now responsive */}
           <div className="flex flex-col items-start space-y-4 lg:col-span-1">
-          
-            <p className="w-full text-[12px] sm:w-[300px] lg:w-[200px]">
+            <Logo/>
+            <p className="w-full text-[20px] md:text-[14px] lg:text-[10px] sm:w-[300px] ">
               We turn thoughtful designs into fast, reliable digital experiences. From landing pages to full products, every detail is built with clean, modern code. Brands partner here to launch interfaces that look sharp and feel effortless to use. Your ideas become scalable, production-ready web experiences users love.
             </p>
           </div>
