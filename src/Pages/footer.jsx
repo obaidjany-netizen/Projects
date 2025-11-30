@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import LogoPfp from "../Components/Logo.jsx";
+import LogoPfp from "../Components/Logo";
 
 const Footer = () => {
   return (
