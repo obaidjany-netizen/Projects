@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import LogoPfp from "../Components/Logo";
+import LogoFooter from "../Components/Logo";
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
           <ul className="w-[200px] flex justify-start items-start flex-col hidden lg:block">
             <li className="">
-              <LogoPfp />
+              <LogoFooter />
             </li>
             <li>
               <p className="w-[300px] text-[12px] ">
