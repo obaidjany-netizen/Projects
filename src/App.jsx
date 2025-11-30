@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./Pages/header";
+import Header from "./Pages/Header";
 import Hero from "./Pages/hero";
 import About from "./Pages/about";
 import Skills from "./Pages/skillssection";
